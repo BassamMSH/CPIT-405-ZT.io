@@ -1,0 +1,360 @@
+
+
+html {
+
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--dark);
+    
+    }
+    
+    body {
+    
+    background-color: blanchedalmond;
+    margin: 30px 50px;
+    line-height: 1.4;
+    
+    }
+    
+    
+     
+    .btn {
+        
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        background-color: #f1f1f1;
+        color: black;
+        padding: 0.6rem 1.3rem;
+        text-decoration: none;
+        border: 0px;
+    }
+    
+    .btn:hover {
+    
+        background-color: black;
+        color: white;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+    
+    img {
+    
+    max-width: 100%;
+    
+    
+    }
+
+    
+
+
+    .navDrink ul {
+        
+        display: grid;
+        grid-gap: 20px;
+        padding: 0;
+        list-style: none;
+        grid-template-columns: repeat(4 ,1fr);}
+
+        .navDrink a {
+        
+            background: #fff;
+            display: block;
+            text-decoration: none;
+            padding: 0.8rem;
+            text-align: center;
+            color: black;
+            text-transform: uppercase;
+            font-size: 1.1rem;
+            box-shadow: black;
+        
+        }
+
+        .navDrink a:hover {
+            background: black;
+            color: white;
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+           
+           }
+
+        .navFood ul {
+        
+            display: grid;
+            grid-gap: 20px;
+            padding: 0;
+            list-style: none;
+            grid-template-columns: repeat(5 ,1fr);}
+    
+            .navFood a {
+            
+                background: #fff;
+                display: block;
+                text-decoration: none;
+                padding: 0.8rem;
+                text-align: center;
+                color: black;
+                text-transform: uppercase;
+                font-size: 1.1rem;
+                box-shadow: black;
+            
+            }
+
+            .navFood a:hover {
+                background: black;
+                color: white;
+                box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+               
+               }
+
+            .navDessret ul {
+        
+                display: grid;
+                grid-gap: 20px;
+                padding: 0;
+                list-style: none;
+                grid-template-columns: repeat(5 ,1fr);}
+        
+                .navDessret  a {
+                
+                    background: #fff;
+                    display: block;
+                    text-decoration: none;
+                    padding: 0.8rem;
+                    text-align: center;
+                    color: black;
+                    text-transform: uppercase;
+                    font-size: 1.1rem;
+                    box-shadow: black;
+                
+                }
+
+                .navDessret a:hover {
+                    background: black;
+                    color: white;
+                    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+                   
+                   }
+                     .navDrink ul {
+        
+        display: grid;
+        grid-gap: 20px;
+        padding: 0;
+        list-style: none;
+        grid-template-columns: repeat(5 ,1fr);}
+
+        .navDrink a {
+        
+            background: #fff;
+            display: block;
+            text-decoration: none;
+            padding: 0.8rem;
+            text-align: center;
+            color: black;
+            text-transform: uppercase;
+            font-size: 1.1rem;
+            box-shadow: black;
+        
+        }
+
+        .navDrink a:hover {
+            background: black;
+            color: white;
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+           
+           }
+           .navForm ul {
+        
+            display: grid;
+            grid-gap: 20px;
+            padding: 0;
+            list-style: none;
+            grid-template-columns: repeat(4 ,1fr);}
+    
+            .navForm a {
+            
+                background: #fff;
+                display: block;
+                text-decoration: none;
+                padding: 0.8rem;
+                text-align: center;
+                color: black;
+                text-transform: uppercase;
+                font-size: 1.1rem;
+                box-shadow: black;
+            
+            }
+    
+            .navForm a:hover {
+                background: black;
+                color: white;
+                box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+               }  
+
+
+    .main-nav ul{
+
+        display: grid;
+        grid-gap: 20px;
+        padding: 0;
+        list-style: none;
+        grid-template-columns: repeat(6 ,1fr);
+        
+        }
+
+        
+        .main-nav a {
+        
+            background: #fff;
+            display: block;
+            text-decoration: none;
+            padding: 0.8rem;
+            text-align: center;
+            color: black;
+            text-transform: uppercase;
+            font-size: 1.1rem;
+            box-shadow: black;
+        
+        }
+        
+        .main-nav a:hover {
+         background: black;
+         color: white;
+         box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+        
+        }
+    
+    .wrapper {
+    
+    display: grid;
+    grid-gap: 20px;
+    
+    }
+
+
+.grid{
+    display: grid;
+    grid-template-columns: 355px 355px 355px 355px;
+    grid-gap: 1em;
+
+}
+.grid > div{
+    background: blanchedalmond;
+}
+.desGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+}
+.desGrid > div{
+    background: blanchedalmond;
+}
+.desGrid > div> img{
+    width: 480px;
+    height: 300px;
+}
+.desGrid > div > b{
+    margin-left: 185px;
+ }
+.drkGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+}
+.drkGrid > div{
+background: blanchedalmond;
+}
+.drkGrid > div >img{
+    width: 480px;
+    height: 300px;
+}
+.drkGrid > div > b{
+   margin-left: 185px;
+}
+.formGrid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+    
+}
+div >div:nth-child(odd) {
+
+    background-color: blanchedalmond;
+    
+    }
+
+img{
+    width: 355px;
+    height: 300px;
+}
+
+p{
+    text-align: center;
+}
+p.price{
+    text-align: center;
+    font-weight: bold;
+}
+b{
+    text-align: center;
+    margin-left: 120px;
+}
+h1{
+    text-align: center;
+}
+form{
+    border: solid black;
+    text-align: center;
+}
+small{
+    color: red;
+}
+input{
+    border-radius: 12px;
+}
+
+@media(max-width: 600px) {
+
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    
+    }
+    .drkGrid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+    .desGrid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+    p{
+        font-size: 10px;
+    }
+
+
+        .navDrink ul {
+            grid-template-columns: 1fr;
+            }
+
+            .navFood ul {
+
+                grid-template-columns: 1fr;
+
+            }
+
+            .navDessret ul {
+
+
+                grid-template-columns: 1fr;
+
+            }
+            .navForm ul {
+
+
+                grid-template-columns: 1fr;
+
+            }
+}

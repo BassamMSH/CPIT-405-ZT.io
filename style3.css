@@ -1,0 +1,269 @@
+html {
+
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--dark);
+    
+    }
+    
+    body {
+    
+    background-color: blanchedalmond;
+    margin: 30px 250px;
+    line-height: 1.4;
+    
+    }
+
+    .navBranches ul{
+
+        display: grid;
+        grid-gap: 20px;
+        padding: 0;
+        list-style: none;
+        grid-template-columns: repeat(5 ,1fr);
+        
+        }
+        
+        .navBranches a {
+        
+            background: #fff;
+            display: block;
+            text-decoration: none;
+            padding: 0.8rem;
+            text-align: center;
+            color: black;
+            text-transform: uppercase;
+            font-size: 1.1rem;
+            box-shadow: black;
+        
+        }
+        
+        .navBranches a:hover {
+         background: black;
+         color: white;
+         box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+        
+        }
+
+    .top-container {
+        display: grid;
+        
+        row-gap: 10px;
+        
+         grid-template-areas: 
+        "showcase showcase top-box-a"
+        "showcase1 showcase1 top-box-b"
+        "showcase2 showcase2 top-box-c"; }
+
+.showcase {
+
+    grid-area: showcase;
+   
+    background: url(img/pexels-rachel-claire-5865071.jpg);
+    border:  blanchedalmond solid;
+   
+    border-top-left-radius: 20px;
+    border-bottom-left-radius:20px ;
+    background-size: cover;
+    background-position: center;
+    
+    
+    padding: 2rem;
+ 
+    
+    }
+    
+  
+    
+.showcase1 {
+
+    grid-area: showcase1;
+
+ 
+    
+  
+    background: url(img/pexels-rachel-claire-5865071.jpg);
+    border: blanchedalmond solid;
+   
+    border-top-left-radius: 20px;
+    border-bottom-left-radius:20px ;
+    background-size: cover;
+    background-position: center;
+    
+    
+    padding: 2rem;
+    
+    }
+    
+    
+    
+.showcase2 {
+
+    grid-area: showcase2;
+
+    
+ 
+    background: url(img/pexels-rachel-claire-5865071.jpg);
+    border:  blanchedalmond solid;
+   
+    
+    border-top-left-radius: 20px;
+    border-bottom-left-radius:20px ;
+    background-size: cover;
+    background-position: center;
+    
+    
+    padding: 2rem;
+    
+    }
+    
+    .top-box {
+    
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    padding: 1.5rem;
+    
+    }
+    
+    
+    .top-box-a {
+    grid-area: top-box-a;
+    
+    
+    background: whitesmoke;
+    border: whitesmoke solid;
+    
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+    }
+
+    .top-box-a p{
+        
+        font-size: 0.7rem;
+          margin-top: 0;
+         color: black;
+        
+        }
+
+        .top-box-a h4{
+
+            font-size: 1rem;
+            margin-bottom: 0;
+           color:violet;
+        }
+    
+        .top-box-a h5{
+
+            font-size: 1rem;
+            margin-bottom: 0;
+           color:violet;
+        }
+        
+    
+  .top-box-b {
+    grid-area: top-box-b;
+    
+    background: whitesmoke;
+    border: whitesmoke solid;
+    
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+   
+    
+    }
+    .top-box-b p{
+        
+        font-size: 0.7rem;
+          margin-top: 0;
+         color: black;
+        
+        }
+
+        .top-box-b h4{
+
+            font-size: 1rem;
+            margin-bottom: 0;
+           color:violet;
+        }
+    
+        .top-box-b h5{
+
+            font-size: 1rem;
+            margin-bottom: 0;
+           color:violet;
+        }
+    
+    .top-box-c {
+        grid-area: top-box-c;
+        
+        background: whitesmoke;
+        border: whitesmoke solid;
+        
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        
+    }
+    
+    .top-box-c p{
+        
+        font-size: 0.7rem;
+          margin-top: 0;
+         color: black;
+        
+        }
+
+        .top-box-c h4{
+
+            font-size: 1rem;
+            margin-bottom: 0;
+           color:violet;
+        }
+    
+        .top-box-c h5{
+
+            font-size: 1rem;
+            margin-bottom: 0;
+           color:violet;
+        }
+        @media(max-width: 600px) {
+           
+             .navBranches ul{
+
+        display: grid;
+        grid-template-columns: 1fr;
+        
+        }
+            }
+
+      
+        /* .top-box {
+
+
+            display: grid;
+            align-items: center;
+            justify-items: center;
+            box-shadow: grey;
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: row;
+            align-items: start;
+            justify-content: center;
+            
+            } */
+            
+           
+
+                
+
+           
+            
+            
+               
+                
+                
+                
+            
+               
+            

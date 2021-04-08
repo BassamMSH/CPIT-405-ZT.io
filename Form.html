@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation</title>
+    <script type="text/javascript">
+        var count = 0;
+        var res;
+        function conf(form) {
+            var name = form.fName.value;
+
+             res = count + 1;
+            alert("Your Reservation End Sucssefuly.");
+            document.write("<h5>Mr/Ms."+name+" Your Reservation End Sucssefuly. <br>" + "Your Reservation Number is: " + res + "<br></h5>");
+            document.write("<a href="+"index.html"+">Return to Homepage</a>");
+
+
+
+        }
+    </script>
+
+
+<link rel="stylesheet" href="menu.css">
+
+</head>
+
+<body>
+
+    <div class="formGrid">
+        <div>
+            
+        </div>
+        <div>
+            
+            <h1>RESERVATION</h1>
+            
+    <form method="post" action="">
+
+        <p><label>First Name: <input name="fName" type="text" size="15" /></label></p>
+        <p><label>Last Name: <input name="lName" type="text" size="15" /></label></p>
+
+      
+        <p><label>Phone: <input type="text" size="10"></label></p>
+        <p>Section:
+            <label>Family <input name="radio" type="radio" checked="checked"></label>
+            <label>Singls <input name="radio" type="radio"></label>
+        </p>
+        <p> Area:
+            <label>Smoking <input name="smok" type="radio" checked="checked" /></label>
+            <label>Non-Smoking <input name="smok" type="radio" /></label>
+        </p>
+        <p>
+            <label>Date: <input type="Date" name="date" > </label>
+        </p>
+
+        <p><label>Time:
+                <select name="selc">
+                    <option> </option>
+                    <option>1:00PM</option>
+                    <option>2:00PM</option>
+                    <option>3:00PM</option>
+                    <option>4:00PM</option>
+                    <option>5:00PM</option>
+                    <option>6:00PM</option>
+                    <option>7:00PM</option>
+                    <option>8:00PM</option>
+                    <option>9:00PM</option>
+                    <option>10:00PM</option>
+                    <option>11:00PM</option>
+                    <option>12:00AM</option>
+                </select>
+            </label>
+        </p>
+        <small>*Note: This is Beta Version* <br></small>
+        <input type="submit" onclick=conf(this.form) value="Submit"> 
+        <input type="reset" value="Reset">
+        </div>
+        <div>
+          
+        </div>
+    </div>
+
+</body>
+
+</html>
