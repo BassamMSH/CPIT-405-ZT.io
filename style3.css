@@ -227,32 +227,29 @@ html {
             margin-bottom: 0;
            color:violet;
         }
-        @media(max-width: 600px) {
-           
-             .navBranches ul{
 
-        display: grid;
+        @media(max-width: 600px) {
+             
+            .top-container {
+            grid-template-columns: 1fr 1fr 1fr;
+            
+         }
+            body {
+    
+                background-color: blanchedalmond;
+                margin: 30px 50px;
+                line-height: 1.4;   
+                }
+
+    .navBranches ul{
+
+        
         grid-template-columns: 1fr;
         
-        }
-            }
+        } }
 
       
-        /* .top-box {
-
-
-            display: grid;
-            align-items: center;
-            justify-items: center;
-            box-shadow: grey;
-            padding: 1.5rem;
-            display: flex;
-            flex-direction: row;
-            align-items: start;
-            justify-content: center;
-            
-            } */
-            
+     
            
 
                 
@@ -263,7 +260,3 @@ html {
                
                 
                 
-                
-            
-               
-            

@@ -45,9 +45,7 @@ html {
     }
 
     
-
-
-    .navDrink ul {
+    .navDrink ul , .navFood ul , .navDessret ul , .navForm ul{
         
         display: grid;
         grid-gap: 20px;
@@ -55,7 +53,7 @@ html {
         list-style: none;
         grid-template-columns: repeat(4 ,1fr);}
 
-        .navDrink a {
+        .navDrink a ,.navFood a , .navDessret a , .navForm a{
         
             background: #fff;
             display: block;
@@ -69,13 +67,14 @@ html {
         
         }
 
-        .navDrink a:hover {
+        .navDrink a:hover , .navDessret a:hover , .navFood a:hover , .navForm a:hover  {
             background: black;
             color: white;
-            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-           
+           box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
            }
 
+  
+  
         .navFood ul {
         
             display: grid;
@@ -327,7 +326,7 @@ input{
     }
     .desGrid{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr
         
     }
     p{
@@ -335,26 +334,9 @@ input{
     }
 
 
-        .navDrink ul {
+        .navDrink ul ,.navFood ul,  .navDessret ul, .navForm ul{
             grid-template-columns: 1fr;
             }
 
-            .navFood ul {
-
-                grid-template-columns: 1fr;
-
-            }
-
-            .navDessret ul {
-
-
-                grid-template-columns: 1fr;
-
-            }
-            .navForm ul {
-
-
-                grid-template-columns: 1fr;
-
-            }
+           
 }
