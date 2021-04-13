@@ -32,15 +32,13 @@ line-height: 1.4;
     padding: 0.6rem 1.3rem;
     text-decoration: none;
     border: 0px;
-}
-
-.btn:hover {
-
-    background-color: black;
-    color: white;
+    border-radius: 20px;
+   
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-    
+
 }
+
+
 
 img {
 
@@ -92,16 +90,8 @@ display: grid;
 grid-gap: 10px;
 
  grid-template-areas: 
-"showcase showcase top-box-a"
-"showcase showcase top-box-b"
-"showcase showcase top-box-c"
-
-
-; 
-
-/* grid-template-areas: "showcase showcase . " 
-"top-box-a top-box-b top-box-c"
-; */
+"showcase showcase showcase"
+"top-box-a top-box-b top-box-c"; 
 
 
 
@@ -114,16 +104,18 @@ grid-gap: 10px;
 grid-area: showcase;
 min-height: 200px;
 background: url(img/pexels-pixabay-315755.jpg);
-background-size: cover;
+background-size: 100%;
 background-position: center;
 
+transition: 0.7s ease-in-out;
 
 padding: 3rem;
 display: flex;
 flex-direction: column;
 align-items: start;
 justify-content: center;
-box-shadow: var(--dark);
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
 
 }
 
@@ -145,6 +137,8 @@ color: white;
 }
 
 
+
+
 .top-box {
 
 
@@ -153,66 +147,55 @@ align-items: center;
 justify-items: center;
 box-shadow: grey;
 padding: 1.5rem;
+cursor: pointer;
+transition: 0.7s ease-in-out;
+}
+
+
+.top-box:hover {
+
+background-size: 120%;
 
 }
 
 
-
-
-
 .top-box-a {
 grid-area: top-box-a;
-min-height: 100px;
+min-height: 90px;
 
- background-image: url(img/pexels-ahmad-syahrir-605408.jpg);
-background-size: cover;
+background-image: url(img/pexels-ahmad-syahrir-605408.jpg);
+background-size: 100%;
 background-position:center;  
 
 }
 
 
-.top-box-a .btn {
-
-font-size: 10px;
-border-radius: 12px;
-
-
-}
 
 
 .top-box-b {
 grid-area: top-box-b;
-min-height: 100px;
+min-height: 90px;
 background-image: url(img/pexels-lgh-1256875.jpg);
-background-size: cover;
+background-size: 100%;
 background-position:center; 
 
 }
 
-.top-box-b .btn {
 
-    font-size: 10px;
-    border-radius: 12px;
-    
-    
-    }
+
+
 
 .top-box-c {
     grid-area: top-box-c;
-    min-height: 100px;
+    min-height: 90px;
     background-image: url(img/pexels-pixabay-45202.jpg);
-   background-size: cover;
+   background-size: 100%;
    background-position:center; 
     
     }
 
-    .top-box-c .btn {
+    
 
-        font-size: 10px;
-        border-radius: 12px;
-        
-        
-        }
 
 .boxes {
 
@@ -308,9 +291,16 @@ grid-gap: 20px;
     justify-content: center;
     box-shadow: var(--dark);
     color: white;
+    transition: 0.7s ease-in-out;
+
+}
 
 
-} 
+.info .btn:hover {
+
+    background-color: black;
+    color: white;
+}
 
 footer {
 

@@ -233,7 +233,7 @@ html {
 
 .grid{
     display: grid;
-    grid-template-columns: 355px 355px 355px 355px;
+    grid-template-columns: repeat(4, auto);
     grid-gap: 1em;
 
 }
@@ -242,7 +242,7 @@ html {
 }
 .desGrid{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3,auto);
     grid-gap: 1em;
 }
 .desGrid > div{
@@ -257,7 +257,7 @@ html {
  }
 .drkGrid{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3,auto);
     grid-gap: 1em;
 }
 .drkGrid > div{
@@ -311,6 +311,18 @@ small{
 input{
     border-radius: 12px;
 }
+div > img{
+    position: relative;
+overflow: hidden;
+object-fit: cover;
+object-position: 50% 50%;
+transition: .7s ease-in-out;
+
+}
+div :hover > img {
+    transform: scale(1.05);
+}
+
 
 @media(max-width: 600px) {
 
